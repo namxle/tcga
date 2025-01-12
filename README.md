@@ -2,6 +2,6 @@
 
 
 ```bash
-mkdir -p /Users/namle/Documents/Hust/Masters-2024/TCGA/data/CNV
-gdc-client download -d /Users/namle/Documents/Hust/Masters-2024/TCGA/data/CNV -m cnv_manifest.txt
+mkdir -p /mnt/d/Documents/Data/TCGA/CNV
+gdc-client download -d /mnt/d/Documents/Data/TCGA/CNV -m cnv_manifest.txt
 ```
