@@ -1,0 +1,510 @@
+	case_submitter_id	age_at_index	days_to_death	days_to_last_follow_up	ethnicity	gender	race	morphology	vital_status	ajcc_pathologic_m	ajcc_pathologic_n	ajcc_pathologic_stage	primary_diagnosis	treatment_type	event	days_to_event
+1	TCGA-05-4245	81		730.0	not reported	male	not reported	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	730.0
+2	TCGA-05-4249	67		1523.0	not reported	male	not reported	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	1523.0
+3	TCGA-05-4250	79	121		not reported	female	not reported	8140/3	Dead	M0	N1	Stage IIIA	Adenocarcinoma, NOS	None	1	121.0
+4	TCGA-05-4382	68		607.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	607.0
+5	TCGA-05-4384	66		426.0	not reported	male	not reported	8255/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	426.0
+6	TCGA-05-4389	70		1369.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	1369.0
+7	TCGA-05-4390	58		1126.0	not reported	female	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	1126.0
+9	TCGA-05-4396	76	303		not reported	male	not reported	8255/3	Dead	M0	N1	Stage IIIB	Adenocarcinoma with mixed subtypes	None	1	303.0
+10	TCGA-05-4397	65	731		not reported	male	not reported	8255/3	Dead	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	None	1	731.0
+11	TCGA-05-4398	47		1431.0	not reported	female	not reported	8255/3	Alive	M0	N3	Stage IIIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	1431.0
+12	TCGA-05-4402	57	244		not reported	female	not reported	8255/3	Dead	M1	NX	Stage IV	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	244.0
+13	TCGA-05-4403	76		578.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	578.0
+14	TCGA-05-4405	74		610.0	not reported	female	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	610.0
+16	TCGA-05-4415	57	91		not reported	male	not reported	8255/3	Dead	M0	N2	Stage IIIB	Adenocarcinoma with mixed subtypes	None	1	91.0
+17	TCGA-05-4417	51		455.0	not reported	female	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	455.0
+18	TCGA-05-4418	69	274		not reported	male	not reported	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	None	1	274.0
+19	TCGA-05-4420	41		912.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	912.0
+20	TCGA-05-4422	68		365.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	365.0
+21	TCGA-05-4424	70		913.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IIB	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	913.0
+22	TCGA-05-4425	70		669.0	not reported	female	not reported	8255/3	Alive	M1	N0	Stage IV	Adenocarcinoma with mixed subtypes	None	0	669.0
+23	TCGA-05-4426	71		791.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	791.0
+24	TCGA-05-4427	65		791.0	not reported	female	not reported	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	791.0
+25	TCGA-05-4430	59		761.0	not reported	female	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	761.0
+26	TCGA-05-4432	66		761.0	not reported	male	not reported	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	761.0
+27	TCGA-05-4433	82		730.0	not reported	male	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	730.0
+28	TCGA-05-4434	67	457		not reported	female	not reported	8255/3	Dead	M1	N1	Stage IV	Adenocarcinoma with mixed subtypes	None	1	457.0
+29	TCGA-05-5420	67		457.0	not reported	male	not reported	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	457.0
+30	TCGA-05-5423	65		151.0	not reported	male	not reported	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	None	0	151.0
+31	TCGA-05-5425	68		882.0	not reported	male	not reported	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	882.0
+32	TCGA-05-5428	57		670.0	not reported	male	not reported	8255/3	Alive	M0	N1	Stage IIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	670.0
+33	TCGA-05-5429	60	275	30.0	not reported	male	not reported	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	1	275.0
+34	TCGA-05-5715	69		62.0	not reported	female	not reported	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	62.0
+98	TCGA-35-3615	57		14.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	14.0
+99	TCGA-35-4122	69		225.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	225.0
+100	TCGA-35-4123	38		182.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	182.0
+101	TCGA-35-5375	61		264.0	not hispanic or latino	male	white	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	264.0
+102	TCGA-38-4625	66		2973.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	2973.0
+103	TCGA-38-4626	57		3674.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0		Adenocarcinoma, NOS	None	0	3674.0
+104	TCGA-38-4627	64	1147		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	None	1	1147.0
+105	TCGA-38-4628	65	1492		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	1492.0
+106	TCGA-38-4629	68	864		not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IIB	Adenocarcinoma, NOS	None	1	864.0
+107	TCGA-38-4630	75	1073		not hispanic or latino	female	white	8260/3	Dead	M0	N0	Stage IB	Papillary adenocarcinoma, NOS	Radiation Therapy, NOS	1	1073.0
+108	TCGA-38-4631	72	354		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	354.0
+109	TCGA-38-4632	42	1357		not hispanic or latino	male	black or african american	8140/3	Dead	M1	N1	Stage IV	Adenocarcinoma, NOS	None	1	1357.0
+110	TCGA-38-6178	70		448.0	not hispanic or latino	female	white	8140/3	Alive		N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	448.0
+111	TCGA-38-7271	72	800		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	800.0
+112	TCGA-38-A44F	80		133.0	not hispanic or latino	male	white	8550/3	Alive	M0	N0	Stage IB	Acinar cell carcinoma	None	0	133.0
+113	TCGA-44-2655	65		1324.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	1324.0
+114	TCGA-44-2656	59		1429.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	1429.0
+115	TCGA-44-2657	74		1351.0	not hispanic or latino	female	white	8140/3	Alive	M0	NX	Stage IB	Adenocarcinoma, NOS	None	0	1351.0
+116	TCGA-44-2659	65		1367.0	not hispanic or latino	female	white	8140/3	Alive	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1367.0
+117	TCGA-44-2661	69		1159.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	1159.0
+118	TCGA-44-2662	65		1280.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1280.0
+119	TCGA-44-2664	66		1251.0	not hispanic or latino	female	black or african american	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	1251.0
+120	TCGA-44-2665	55		1301.0	not hispanic or latino	female	white	8140/3	Alive	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1301.0
+121	TCGA-44-2666	43	97	97.0	hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	97.0
+122	TCGA-44-2668	51	761	246.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	761.0
+123	TCGA-44-3396	74		1130.0	not hispanic or latino	female	white	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1130.0
+124	TCGA-44-3398	77		1163.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	1163.0
+125	TCGA-44-3917	33		1183.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	1183.0
+126	TCGA-44-3918	60		1036.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	1036.0
+127	TCGA-44-3919	71	1026	190.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1026.0
+128	TCGA-44-4112	60	808	722.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	808.0
+129	TCGA-44-5643	53		1013.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	1013.0
+130	TCGA-44-5644	51		863.0	not hispanic or latino	female	white	8140/3	Alive		N0	Stage IB	Adenocarcinoma, NOS	None	0	863.0
+131	TCGA-44-5645	61		852.0	not hispanic or latino	female	black or african american	8140/3	Alive		NX	Stage IA	Adenocarcinoma, NOS	None	0	852.0
+132	TCGA-44-6144	58		723.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	723.0
+133	TCGA-44-6145	62		595.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	595.0
+134	TCGA-44-6146	64		728.0	not hispanic or latino	male	white	8480/3	Alive	M0	N0	Stage IIB	Mucinous adenocarcinoma	Pharmaceutical Therapy, NOS	0	728.0
+135	TCGA-44-6147	67		845.0	not hispanic or latino	female	white	8140/3	Alive	M0	NX	Stage IA	Adenocarcinoma, NOS	None	0	845.0
+136	TCGA-44-6148	60		704.0	not hispanic or latino	male	white	8480/3	Alive	M0	N0	Stage IA	Mucinous adenocarcinoma	None	0	704.0
+137	TCGA-44-6774	56		658.0	not hispanic or latino	female	white	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	658.0
+138	TCGA-44-6775	72		705.0	hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	705.0
+139	TCGA-44-6776	60		2616.0	not reported	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	2616.0
+140	TCGA-44-6777	85	987		not reported	female	white	8140/3	Dead	MX	NX	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	987.0
+141	TCGA-44-6778	59		1864.0	not reported	male	black or african american	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	1864.0
+142	TCGA-44-6779	50	500		not reported	female	white	8140/3	Dead	MX	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	500.0
+143	TCGA-44-7659	70		691.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	691.0
+144	TCGA-44-7660	72		592.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	592.0
+145	TCGA-44-7661	69	557	366.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	557.0
+146	TCGA-44-7662	61		218.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	218.0
+147	TCGA-44-7667	49		1097.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IIB	Adenocarcinoma, NOS	None	0	1097.0
+148	TCGA-44-7669	59	574		not hispanic or latino	male	black or african american	8140/3	Dead	MX	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	574.0
+149	TCGA-44-7670	47		882.0	hispanic or latino	female	white	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	882.0
+150	TCGA-44-7671	64		889.0	not hispanic or latino	male	black or african american	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	889.0
+151	TCGA-44-7672	52		719.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	719.0
+152	TCGA-44-8117	54		385.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	385.0
+153	TCGA-44-8119	73		285.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IIB	Adenocarcinoma, NOS	None	0	285.0
+154	TCGA-44-8120	58		260.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	260.0
+155	TCGA-44-A479	73		486.0	not hispanic or latino	female	black or african american	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	486.0
+156	TCGA-44-A47A	78		466.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	466.0
+157	TCGA-44-A47B	79		287.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	287.0
+158	TCGA-44-A47F	74		337.0	not hispanic or latino	male	white	8140/3	Alive	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	337.0
+159	TCGA-44-A47G	73		351.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	351.0
+160	TCGA-44-A4SS	73		415.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	415.0
+161	TCGA-44-A4SU	67	409	76.0	not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	409.0
+162	TCGA-49-4486	72	2318		not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	2318.0
+163	TCGA-49-4487	72	855		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	855.0
+164	TCGA-49-4488	74	869		not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	869.0
+165	TCGA-49-4490	45	385		not hispanic or latino	female	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	385.0
+166	TCGA-49-4494	77	1081		not hispanic or latino	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	1	1081.0
+167	TCGA-49-4501	67	1421		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	1421.0
+168	TCGA-49-4505	61	428		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	428.0
+169	TCGA-49-4506	68	999		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	999.0
+170	TCGA-49-4507	73	268		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	268.0
+171	TCGA-49-4510	51	896		not hispanic or latino	female	black or african american	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	896.0
+172	TCGA-49-4512	69	905	157.0	not hispanic or latino	female	white	8140/3	Dead	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	905.0
+173	TCGA-49-4514	79		1700.0	not reported	female	white	8260/3	Alive	M0	N0	Stage IA	Papillary adenocarcinoma, NOS	None	0	1700.0
+174	TCGA-49-6742	70	488	445.0	not hispanic or latino	male	white	8480/3	Dead	M0	N1	Stage IIA	Mucinous adenocarcinoma	Pharmaceutical Therapy, NOS	1	488.0
+175	TCGA-49-6743	81		1621.0	not reported	female	white	8310/3	Alive	MX	N2	Stage IIIA	Clear cell adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1621.0
+176	TCGA-49-6744	64		1683.0	not reported	female	white	8255/3	Alive	MX	N1	Stage IIA	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	1683.0
+177	TCGA-49-6745	82		522.0	not reported	male	white	8260/3	Alive	M0	N2	Stage IIIA	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	522.0
+178	TCGA-49-6761	68		354.0	not hispanic or latino	female	white	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	354.0
+179	TCGA-49-6767	46		677.0	not reported	female	white	8140/3	Alive	MX	N0	Stage IIB	Adenocarcinoma, NOS	None	0	677.0
+180	TCGA-49-AAQV	63	677		not hispanic or latino	female	black or african american	8255/3	Dead	MX	N1	Stage II	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	677.0
+181	TCGA-49-AAR0	57		4765.0	not hispanic or latino	male	black or african american	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	4765.0
+182	TCGA-49-AAR2	64		2224.0	not hispanic or latino	male	black or african american	8550/3	Alive	MX	N0	Stage IB	Acinar cell carcinoma	Pharmaceutical Therapy, NOS	0	2224.0
+183	TCGA-49-AAR3	69		1893.0	not hispanic or latino	male	black or african american	8140/3	Alive	MX	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1893.0
+184	TCGA-49-AAR4	51	879		not hispanic or latino	male	black or african american	8140/3	Dead	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	879.0
+185	TCGA-49-AAR9	61	260		not hispanic or latino	male	black or african american	8140/3	Dead	MX	N0	Stage IIB	Adenocarcinoma, NOS	None	1	260.0
+186	TCGA-49-AARE	51	1229		not hispanic or latino	female	black or african american	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1229.0
+187	TCGA-49-AARN	56	1135		not hispanic or latino	female	black or african american	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	1135.0
+188	TCGA-49-AARO	39		3759.0	not hispanic or latino	female	black or african american	8260/3	Alive	MX	N0	Stage IA	Papillary adenocarcinoma, NOS	Radiation Therapy, NOS	0	3759.0
+189	TCGA-49-AARQ	41		6732.0	not hispanic or latino	female	black or african american	8140/3	Alive	MX	N0	Stage I	Adenocarcinoma, NOS	None	0	6732.0
+190	TCGA-49-AARR	68		4992.0	not hispanic or latino	male	black or african american	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	4992.0
+191	TCGA-4B-A93V	52	300	254.0	not hispanic or latino	female	black or african american	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	300.0
+192	TCGA-50-5044	72	624		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	624.0
+193	TCGA-50-5045	57	2174		not hispanic or latino	female	black or african american	8140/3	Dead	M0	N1		Adenocarcinoma, NOS	Radiation Therapy, NOS	1	2174.0
+194	TCGA-50-5049	70		3094.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	3094.0
+195	TCGA-50-5051	42	478	455.0	not hispanic or latino	female	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	478.0
+196	TCGA-50-5055	79	1830	785.0	not hispanic or latino	female	white	8255/3	Dead	M0	N1	Stage IIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	1830.0
+197	TCGA-50-5066	72		1442.0	not hispanic or latino	male	black or african american	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	1442.0
+198	TCGA-50-5068	59	1499	1499.0	not hispanic or latino	female	white	8140/3	Dead	MX	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	1499.0
+199	TCGA-50-5072	74	250	246.0	not hispanic or latino	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	250.0
+200	TCGA-50-5930	47	282		not hispanic or latino	male	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	282.0
+201	TCGA-50-5931	75	434		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	434.0
+202	TCGA-50-5932	75	1235	1091.0	not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	1235.0
+203	TCGA-50-5933	72	2393	2370.0	not hispanic or latino	male	white	8140/3	Dead	M0	N2	Stage IIIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	2393.0
+204	TCGA-50-5935	86	653	653.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	653.0
+205	TCGA-50-5936	58	257		not hispanic or latino	male	white	8480/3	Dead	M0	N2	Stage IIIA	Mucinous adenocarcinoma	None	1	257.0
+206	TCGA-50-5939	85	460		not hispanic or latino	male	white	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	1	460.0
+207	TCGA-50-5941	55		1474.0	not reported	female	white	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1474.0
+208	TCGA-50-5942	67		1847.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	1847.0
+209	TCGA-50-5944	69		1750.0	not reported	female	white	8550/3	Alive	M0	N0	Stage IA	Acinar cell carcinoma	None	0	1750.0
+210	TCGA-50-5946	62		1617.0	not reported	male	white	8255/3	Alive	MX	N0	Stage IA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	1617.0
+211	TCGA-50-6590	72	1288		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	1288.0
+212	TCGA-50-6591	63	119		not hispanic or latino	female	white	8140/3	Dead	M1	N0	Stage IV	Adenocarcinoma, NOS	None	1	119.0
+213	TCGA-50-6592	71	777		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	777.0
+214	TCGA-50-6593	49	336		not hispanic or latino	female	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	336.0
+215	TCGA-50-6594	79	370		not hispanic or latino	female	black or african american	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	370.0
+216	TCGA-50-6595	74	189		not hispanic or latino	female	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	189.0
+217	TCGA-50-6597	79	1268	1015.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	1268.0
+218	TCGA-50-6673	84	22		not reported	female	white	8140/3	Dead	M0	N0	Stage I	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	22.0
+219	TCGA-50-7109	60	308	255.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	308.0
+220	TCGA-50-8457	63		1125.0	not hispanic or latino	female	black or african american	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	1125.0
+221	TCGA-50-8459	68		1119.0	not hispanic or latino	male	white	8480/3	Alive	M0	N0	Stage IIB	Mucinous adenocarcinoma	Pharmaceutical Therapy, NOS	0	1119.0
+222	TCGA-50-8460	74		829.0	not hispanic or latino	male	white	8260/3	Alive	M0	N0	Stage IA	Papillary adenocarcinoma, NOS	Radiation Therapy, NOS	0	829.0
+223	TCGA-53-7624	40	1043		hispanic or latino	female	white	8140/3	Dead	M1	N0	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1043.0
+224	TCGA-53-7626	76	929		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	929.0
+225	TCGA-53-7813	51		424.0	not hispanic or latino	female	white	8252/3	Alive	M0	N0	Stage IIIB	Bronchiolo-alveolar carcinoma, non-mucinous	Pharmaceutical Therapy, NOS	0	424.0
+226	TCGA-53-A4EZ	63		1071.0	hispanic or latino	male	white	8550/3	Alive	MX	N1	Stage IIA	Acinar cell carcinoma	Radiation Therapy, NOS	0	1071.0
+227	TCGA-55-1592	65	701		not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	701.0
+228	TCGA-55-1594	68		1178.0	not hispanic or latino	male	white	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	1178.0
+229	TCGA-55-1595	74		1479.0	not hispanic or latino	female	asian	8310/3	Alive	M0	N0	Stage IA	Clear cell adenocarcinoma, NOS	None	0	1479.0
+230	TCGA-55-1596	55		2065.0	not hispanic or latino	male	asian	8140/3	Alive	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	2065.0
+231	TCGA-55-5899	58		930.0	not hispanic or latino	male	white	8140/3	Alive	M0	N1		Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	930.0
+232	TCGA-55-6543	60		435.0	not reported	female	white	8253/3	Alive	MX	N0	Stage IA	Bronchio-alveolar carcinoma, mucinous	None	0	435.0
+233	TCGA-55-6642	63		2449.0	not reported	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	2449.0
+234	TCGA-55-6712	71	171	24.0	not reported	male	white	8140/3	Dead	MX	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	171.0
+235	TCGA-55-6968	61	1293		not hispanic or latino	male	white	8140/3	Dead	M1	N0	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1293.0
+236	TCGA-55-6969	52		1239.0	not reported	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	1239.0
+237	TCGA-55-6970	67	464		not reported	female	white	8260/3	Dead	MX	N2	Stage IIIA	Papillary adenocarcinoma, NOS	Radiation Therapy, NOS	1	464.0
+238	TCGA-55-6971	59		1400.0	not reported	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	1400.0
+239	TCGA-55-6972	72	1632	1475.0	not hispanic or latino	male	white	8260/3	Dead	M0	N0	Stage IB	Papillary adenocarcinoma, NOS	None	1	1632.0
+240	TCGA-55-6975	61	118		not hispanic or latino	male	white	8255/3	Dead	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	None	1	118.0
+241	TCGA-55-6978	81	176		not hispanic or latino	male	white	8140/3	Dead	MX	N0	Stage IIA	Adenocarcinoma, NOS	None	1	176.0
+242	TCGA-55-6979	59	237		not reported	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	237.0
+243	TCGA-55-6980	56		2109.0	not reported	male	white	8252/3	Alive	M0	N0	Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	2109.0
+244	TCGA-55-6981	53	1379		not hispanic or latino	female	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1379.0
+245	TCGA-55-6982	79	995		not reported	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	995.0
+246	TCGA-55-6983	81		2823.0	not hispanic or latino	male	white	8480/3	Alive	M0	N1	Stage IIB	Mucinous adenocarcinoma	Pharmaceutical Therapy, NOS	0	2823.0
+247	TCGA-55-6984	71	760		not hispanic or latino	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	760.0
+248	TCGA-55-6985	58		1233.0	not reported	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	1233.0
+249	TCGA-55-6986	74		3261.0	not reported	female	white	8252/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	3261.0
+250	TCGA-55-6987	77		2137.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	2137.0
+251	TCGA-55-7227	77	952	53.0	not hispanic or latino	male	white	8140/3	Dead	MX	N1	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	952.0
+252	TCGA-55-7281	70		872.0	not reported	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	872.0
+253	TCGA-55-7283	76		609.0	not hispanic or latino	female	white	8252/3	Alive	MX	N2	Stage IIIA	Bronchiolo-alveolar carcinoma, non-mucinous	Pharmaceutical Therapy, NOS	0	609.0
+254	TCGA-55-7284	74	243	121.0	not hispanic or latino	male	white	8252/3	Dead	MX	N0	Stage IIB	Bronchiolo-alveolar carcinoma, non-mucinous	None	1	243.0
+255	TCGA-55-7570	60		824.0	not hispanic or latino	male	black or african american	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	824.0
+256	TCGA-55-7573	72		487.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	487.0
+257	TCGA-55-7574	64	995	95.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	995.0
+258	TCGA-55-7576	54		670.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	670.0
+259	TCGA-55-7724	76		705.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	705.0
+260	TCGA-55-7725	68		442.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	442.0
+261	TCGA-55-7726	72		652.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	652.0
+262	TCGA-55-7727	70		119.0	not hispanic or latino	male	white	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	119.0
+263	TCGA-55-7728	64		704.0	not hispanic or latino	female	white	8480/3	Alive	MX	N0	Stage IB	Mucinous adenocarcinoma	None	0	704.0
+264	TCGA-55-7815	76		773.0	not reported	male	not reported	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	773.0
+265	TCGA-55-7816	49	468	44.0	not hispanic or latino	female	white	8140/3	Dead	MX	NX	Stage IV	Adenocarcinoma, NOS	None	1	468.0
+266	TCGA-55-7903	64		567.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	567.0
+267	TCGA-55-7907	77	343	16.0	not hispanic or latino	male	white	8140/3	Dead	MX	N1	Stage IIA	Adenocarcinoma, NOS	None	1	343.0
+268	TCGA-55-7910	50		1040.0	not hispanic or latino	female	black or african american	8140/3	Alive	M0	N0	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1040.0
+269	TCGA-55-7911	70		537.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	537.0
+270	TCGA-55-7913	61	561	62.0	not hispanic or latino	female	black or african american	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	561.0
+271	TCGA-55-7914	71	187	3.0	not hispanic or latino	female	white	8140/3	Dead	MX	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	187.0
+272	TCGA-55-7994	81		603.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	603.0
+273	TCGA-55-7995	73		889.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	889.0
+274	TCGA-55-8085	64		904.0	not hispanic or latino	male	white	8260/3	Alive	M0	N0	Stage IA	Papillary adenocarcinoma, NOS	None	0	904.0
+275	TCGA-55-8087	59		462.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	462.0
+276	TCGA-55-8089	56	702	100.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	702.0
+277	TCGA-55-8090	80	598	6.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	598.0
+278	TCGA-55-8091	74		600.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	600.0
+279	TCGA-55-8092	75	154	26.0	not hispanic or latino	male	white	8140/3	Dead	MX	N0	Stage IIB	Adenocarcinoma, NOS	None	1	154.0
+280	TCGA-55-8094	51		541.0	not hispanic or latino	male	white	8140/3	Alive	M1b	N0	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	541.0
+281	TCGA-55-8096	67	719	47.0	not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	719.0
+282	TCGA-55-8097	60		476.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	476.0
+283	TCGA-55-8203	69		547.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	547.0
+284	TCGA-55-8204	87		515.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	515.0
+285	TCGA-55-8205	76		599.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	599.0
+286	TCGA-55-8206	56		888.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	888.0
+287	TCGA-55-8207	73		977.0	not hispanic or latino	male	white	8550/3	Alive	MX	N0	Stage IB	Acinar cell carcinoma	None	0	977.0
+288	TCGA-55-8208	73		674.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	674.0
+289	TCGA-55-8299	61	469	216.0	not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	469.0
+290	TCGA-55-8301	58		534.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	534.0
+291	TCGA-55-8302	54		478.0	not reported	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	478.0
+292	TCGA-55-8505	62		440.0	not hispanic or latino	male	white	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	440.0
+293	TCGA-55-8506	62		11.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IIB	Adenocarcinoma, NOS	None	0	11.0
+294	TCGA-55-8507	53		418.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	418.0
+295	TCGA-55-8508	60		617.0	not hispanic or latino	female	black or african american	8480/3	Alive	MX	N1	Stage IIA	Mucinous adenocarcinoma	Pharmaceutical Therapy, NOS	0	617.0
+296	TCGA-55-8510	55		539.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	539.0
+297	TCGA-55-8511	73		552.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	552.0
+298	TCGA-55-8512	41	607	3.0	not hispanic or latino	male	white	8252/3	Dead	M1b	N1	Stage IV	Bronchiolo-alveolar carcinoma, non-mucinous	None	1	607.0
+299	TCGA-55-8513	77		791.0	not hispanic or latino	female	white	8480/3	Alive	MX	N0	Stage IIB	Mucinous adenocarcinoma	Pharmaceutical Therapy, NOS	0	791.0
+300	TCGA-55-8514	70		520.0	not hispanic or latino	female	black or african american	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	520.0
+301	TCGA-55-8614	76		536.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	536.0
+302	TCGA-55-8615	67		446.0	not hispanic or latino	male	white	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	446.0
+303	TCGA-55-8616	58		48.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	48.0
+304	TCGA-55-8619	72		416.0	not hispanic or latino	female	white	8480/3	Alive	MX	N0	Stage IIB	Mucinous adenocarcinoma	None	0	416.0
+305	TCGA-55-8620	60	375	66.0	not hispanic or latino	male	white	8140/3	Dead	M1b	N1	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	375.0
+306	TCGA-55-8621	75		515.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	515.0
+307	TCGA-55-A48X	63		689.0	not hispanic or latino	female	white	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	689.0
+308	TCGA-55-A48Y	69		630.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	630.0
+309	TCGA-55-A48Z	60		651.0	not hispanic or latino	female	white	8255/3	Alive	MX	N3	Stage IIIB	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	651.0
+310	TCGA-55-A490	78	99	48.0	not hispanic or latino	male	white	8140/3	Dead	MX	N0	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	99.0
+311	TCGA-55-A491	81		626.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	626.0
+312	TCGA-55-A492	70		596.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	596.0
+313	TCGA-55-A493	54		28.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	28.0
+314	TCGA-55-A494	61		481.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	481.0
+315	TCGA-55-A4DF	88	440	47.0	not hispanic or latino	male	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	440.0
+316	TCGA-55-A4DG	71		608.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	608.0
+317	TCGA-55-A57B	80		546.0	not hispanic or latino	female	black or african american	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	546.0
+318	TCGA-62-8394	65	139		not hispanic or latino	female	white	8255/3	Dead	M0	N2	Stage IIIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	139.0
+319	TCGA-62-8395	80		1216.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	1216.0
+320	TCGA-62-8397	70		1289.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IIB	Adenocarcinoma with mixed subtypes	None	0	1289.0
+321	TCGA-62-8398	55	444		not hispanic or latino	male	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	444.0
+322	TCGA-62-8399	62		2696.0	not hispanic or latino	male	white	8255/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	None	0	2696.0
+323	TCGA-62-8402	73	1498	1445.0	not hispanic or latino	female	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	1498.0
+324	TCGA-62-A46O	65	1454		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	1454.0
+325	TCGA-62-A46P	65	594		not hispanic or latino	male	white	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	594.0
+326	TCGA-62-A46R	54	1725		not hispanic or latino	female	white	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	1	1725.0
+327	TCGA-62-A46S	73	1653		not hispanic or latino	male	white	8260/3	Dead	M0	N0	Stage IB	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	1653.0
+328	TCGA-62-A46U	71		2067.0	not hispanic or latino	female	white	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	2067.0
+329	TCGA-62-A46V	78		2199.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	2199.0
+330	TCGA-62-A46Y	70	414		not hispanic or latino	female	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	414.0
+331	TCGA-62-A470	84	1194		not hispanic or latino	male	white	8550/3	Dead	M0	N0	Stage IB	Acinar cell carcinoma	Radiation Therapy, NOS	1	1194.0
+332	TCGA-62-A471	64		1246.0	not hispanic or latino	male	white	8140/3	Alive	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1246.0
+333	TCGA-62-A472	70		910.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	910.0
+334	TCGA-64-1676	58		1728.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	1728.0
+335	TCGA-64-1677	77	628		not hispanic or latino	female	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	628.0
+336	TCGA-64-1678	70		1189.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0		Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1189.0
+337	TCGA-64-1679	58		2488.0	not hispanic or latino	female	white	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	2488.0
+338	TCGA-64-1680	63		1126.0	not hispanic or latino	male	white	8255/3	Alive	M1	N2	Stage IV	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	1126.0
+339	TCGA-64-1681	61	1167		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	None	1	1167.0
+340	TCGA-64-5774	60		2676.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	2676.0
+341	TCGA-64-5775	71	62		not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IIIA	Adenocarcinoma, NOS	None	1	62.0
+342	TCGA-64-5778	60		1305.0	not hispanic or latino	male	white	8252/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	Radiation Therapy, NOS	0	1305.0
+343	TCGA-64-5779	61		864.0	not hispanic or latino	male	white	8550/3	Alive	M0	N2	Stage IIIA	Acinar cell carcinoma	Radiation Therapy, NOS	0	864.0
+344	TCGA-64-5781	55		1559.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	1559.0
+345	TCGA-64-5815	74		866.0	not hispanic or latino	male	white	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	866.0
+346	TCGA-67-3770	70		610.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	610.0
+347	TCGA-67-3771	77		610.0	not hispanic or latino	female	black or african american	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	610.0
+348	TCGA-67-3772	82		573.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	573.0
+349	TCGA-67-3773	84		427.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	427.0
+350	TCGA-67-3774	73		385.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	385.0
+351	TCGA-67-3776	57		61.0	not hispanic or latino	female	white	8140/3	Alive	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	0	61.0
+352	TCGA-67-4679	69		448.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0		Adenocarcinoma, NOS	None	0	448.0
+353	TCGA-67-6215	52		174.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	174.0
+354	TCGA-67-6216	57		141.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	141.0
+355	TCGA-67-6217	73		422.0	not hispanic or latino	female	white	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	None	0	422.0
+356	TCGA-69-7760	73		202.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	202.0
+357	TCGA-69-7761	84		186.0	not hispanic or latino	male	white	8550/3	Alive	MX	N0	Stage IB	Acinar cell carcinoma	Pharmaceutical Therapy, NOS	0	186.0
+358	TCGA-69-7763	69		690.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	690.0
+359	TCGA-69-7764	75		414.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	414.0
+360	TCGA-69-7765	56		165.0	not hispanic or latino	male	black or african american	8255/3	Alive	MX	N0		Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	165.0
+361	TCGA-69-7973	42		230.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	230.0
+362	TCGA-69-7974	54		184.0	not hispanic or latino	female	white	8255/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	184.0
+363	TCGA-69-7978	59		134.0	not hispanic or latino	male	white	8255/3	Alive	MX	N1	Stage IIB	Adenocarcinoma with mixed subtypes	None	0	134.0
+364	TCGA-69-7979	71		408.0	not hispanic or latino	female	white	8550/3	Alive	MX	N0	Stage IB	Acinar cell carcinoma	None	0	408.0
+365	TCGA-69-7980	70		411.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage I	Adenocarcinoma, NOS	None	0	411.0
+366	TCGA-69-8253	59		426.0	not hispanic or latino	female	black or african american	8255/3	Alive	MX	N1	Stage IIA	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	426.0
+367	TCGA-69-8254	85		409.0	not hispanic or latino	male	white	8255/3	Alive				Adenocarcinoma with mixed subtypes	None	0	409.0
+368	TCGA-69-8255	71		129.0	hispanic or latino	male	white	8230/3	Alive	M0	N0	Stage IA	Solid carcinoma, NOS	None	0	129.0
+369	TCGA-69-8453	77		813.0	not hispanic or latino	male	white	8480/3	Alive	MX	N0	Stage IIB	Mucinous adenocarcinoma	Radiation Therapy, NOS	0	813.0
+370	TCGA-69-A59K	60		591.0	not hispanic or latino	female	black or african american	8255/3	Alive	M0	N0	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	591.0
+371	TCGA-71-6725	48		256.0	not hispanic or latino	female	asian	8260/3	Alive	M0	N0	Stage IB	Papillary adenocarcinoma, NOS	Radiation Therapy, NOS	0	256.0
+372	TCGA-71-8520	60	210	3.0	not hispanic or latino	female	asian	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	210.0
+373	TCGA-73-4658	80	1600	1600.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	1600.0
+374	TCGA-73-4659	66	711	711.0	not hispanic or latino	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	711.0
+375	TCGA-73-4662	65		2515.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	2515.0
+376	TCGA-73-4666	52		800.0	not hispanic or latino	female	white	8140/3	Alive	M1	N0	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	800.0
+377	TCGA-73-4668	66		467.0	not hispanic or latino	female	american indian or alaska native	8265/3	Alive	M0	N1	Stage IIB	Micropapillary carcinoma, NOS	Pharmaceutical Therapy, NOS	0	467.0
+378	TCGA-73-4670	69		131.0	not hispanic or latino	female	white	8140/3	Alive	M1	N0	Stage IV	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	131.0
+379	TCGA-73-4675	59	922	40.0	not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	922.0
+380	TCGA-73-4676	45	281	164.0	not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	281.0
+381	TCGA-73-4677	74	38		not hispanic or latino	male	white	8140/3	Dead	M0	N0		Adenocarcinoma, NOS	None	1	38.0
+382	TCGA-73-7498	58		1189.0	not hispanic or latino	female	white	8252/3	Alive	M0	N0	Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	Pharmaceutical Therapy, NOS	0	1189.0
+383	TCGA-73-7499	81	1531	715.0	not hispanic or latino	female	white	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	1	1531.0
+384	TCGA-73-A9RS	41	340	305.0	not hispanic or latino	male	black or african american	8140/3	Dead	M0	N0	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	340.0
+386	TCGA-75-5125		2027		not reported	male	not reported	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	2027.0
+388	TCGA-75-5146			2368.0	not reported	male	not reported	8252/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	2368.0
+389	TCGA-75-5147			1333.0	not reported	female	not reported	8252/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	1333.0
+392	TCGA-75-6206			2590.0	not reported	male	not reported	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	2590.0
+395	TCGA-75-6212		1516		not reported	female	not reported	8265/3	Dead	M0	N1	Stage IIB	Micropapillary carcinoma, NOS	Pharmaceutical Therapy, NOS	1	1516.0
+396	TCGA-75-6214		1115		not reported	female	not reported	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1115.0
+397	TCGA-75-7025			3305.0	not reported	male	not reported	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	3305.0
+398	TCGA-75-7027			3059.0	not reported	male	not reported	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	3059.0
+401	TCGA-78-7143	62	4961		not reported	female	white	8252/3	Dead	M0	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	1	4961.0
+402	TCGA-78-7145	52	826		not reported	female	white	8140/3	Dead	M1	N1	Stage IV	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	826.0
+403	TCGA-78-7146	71	173		not reported	female	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	None	1	173.0
+404	TCGA-78-7147	67	586		not reported	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	586.0
+405	TCGA-78-7148	71	626		not reported	male	white	8255/3	Dead	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	None	1	626.0
+406	TCGA-78-7149	71		3940.0	not reported	male	white	8255/3	Alive	M0	N0	Stage IIIB	Adenocarcinoma with mixed subtypes	None	0	3940.0
+407	TCGA-78-7150	59	666		not reported	male	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	666.0
+408	TCGA-78-7152	65	1215	1202.0	not reported	male	white	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	1215.0
+409	TCGA-78-7153	65		3635.0	not reported	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	3635.0
+410	TCGA-78-7154	72	593		not reported	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	1	593.0
+411	TCGA-78-7155	68	1171		not reported	male	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	1171.0
+412	TCGA-78-7156	62	976		not reported	male	white	8255/3	Dead	M1	N1	Stage IV	Adenocarcinoma with mixed subtypes	None	1	976.0
+413	TCGA-78-7158	59	179		not reported	female	white	8255/3	Dead	M0	N2	Stage IIIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	179.0
+414	TCGA-78-7159	60		1974.0	not reported	female	white	8255/3	Alive	M0	NX	Stage IA	Adenocarcinoma with mixed subtypes	None	0	1974.0
+415	TCGA-78-7160	61	697	678.0	not reported	male	white	8255/3	Dead	M1	N2	Stage IV	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	697.0
+416	TCGA-78-7161	69	291	215.0	not reported	female	white	8255/3	Dead	M0	N0	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	291.0
+417	TCGA-78-7162	75	3169		not reported	male	white	8255/3	Dead	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	1	3169.0
+418	TCGA-78-7163	60		7248.0	not reported	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	7248.0
+419	TCGA-78-7166	84	258		not reported	male	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	258.0
+420	TCGA-78-7167	77	2681		not reported	male	white	8260/3	Dead	M1	N0	Stage IV	Papillary adenocarcinoma, NOS	None	1	2681.0
+421	TCGA-78-7220	53	807		not reported	female	white	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	1	807.0
+422	TCGA-78-7535	45	949		not reported	male	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	949.0
+423	TCGA-78-7536	69	244		not reported	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	244.0
+424	TCGA-78-7537	72	1622		not reported	male	not reported	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	1	1622.0
+425	TCGA-78-7539	75		791.0	not reported	female	white	8255/3	Alive	M0	N0	Stage IIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	791.0
+426	TCGA-78-7540	66	1197	881.0	not reported	female	white	8253/3	Dead	M0	N0	Stage IB	Bronchio-alveolar carcinoma, mucinous	None	1	1197.0
+427	TCGA-78-7542	56	321		not reported	male	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	321.0
+428	TCGA-78-7633	67	1528	994.0	not reported	male	white	8255/3	Dead	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	1	1528.0
+429	TCGA-78-8640	59		7062.0	not reported	male	not reported	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	None	0	7062.0
+430	TCGA-78-8648	58	1209		not reported	female	not reported	8140/3	Dead	M0	N0	Stage IIB	Adenocarcinoma, NOS	None	1	1209.0
+431	TCGA-78-8655	77		2360.0	not reported	female	not reported	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	2360.0
+432	TCGA-78-8660	69	321		not reported	male	not reported	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	321.0
+433	TCGA-78-8662	53	3361		not reported	female	not reported	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	3361.0
+435	TCGA-80-5608			2832.0	not reported	female	not reported	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	2832.0
+436	TCGA-80-5611			2595.0	not reported	male	not reported	8230/3	Alive	M0	N0	Stage IB	Solid carcinoma, NOS	None	0	2595.0
+437	TCGA-83-5908	59		824.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	824.0
+438	TCGA-86-6562	52	376	0.0	not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	376.0
+439	TCGA-86-6851	73		179.0	not hispanic or latino	female	white	8255/3	Alive	M0	N1	Stage IIA	Adenocarcinoma with mixed subtypes	None	0	179.0
+440	TCGA-86-7701	66		947.0	not hispanic or latino	male	white	8140/3	Alive	M1	N0	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	947.0
+441	TCGA-86-7711	70	1046	630.0	hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	1046.0
+442	TCGA-86-7713	70		1157.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1157.0
+443	TCGA-86-7714	61	625	0.0	not hispanic or latino	female	black or african american	8255/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	None	1	625.0
+444	TCGA-86-7953	69		997.0	not hispanic or latino	female	white	8250/3	Alive	M0	N0	Stage IA	Bronchiolo-alveolar adenocarcinoma, NOS	None	0	997.0
+445	TCGA-86-7954	68		605.0	not hispanic or latino	female	white	8250/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	605.0
+446	TCGA-86-7955	62		1072.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	1072.0
+447	TCGA-86-8054	61		1148.0	not hispanic or latino	male	white	8550/3	Alive	M0	N1	Stage IIB	Acinar cell carcinoma	Pharmaceutical Therapy, NOS	0	1148.0
+448	TCGA-86-8055	79	124	10.0	not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	None	1	124.0
+449	TCGA-86-8056	63		139.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IIIA	Adenocarcinoma with mixed subtypes	None	0	139.0
+450	TCGA-86-8073	58		740.0	not hispanic or latino	male	white	8250/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar adenocarcinoma, NOS	None	0	740.0
+451	TCGA-86-8074	62		24.0	not hispanic or latino	female	white	8260/3	Alive	M0	N1	Stage IIA	Papillary adenocarcinoma, NOS	None	0	24.0
+452	TCGA-86-8075	66	694	479.0	not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	694.0
+453	TCGA-86-8076	42		993.0	not hispanic or latino	male	white	8260/3	Alive	M0	N0	Stage IA	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	993.0
+454	TCGA-86-8278	63		944.0	not hispanic or latino	female	white	8480/3	Alive	M0	N1	Stage IIB	Mucinous adenocarcinoma	None	0	944.0
+455	TCGA-86-8279	46		949.0	not hispanic or latino	male	white	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	949.0
+456	TCGA-86-8280	54		701.0	not hispanic or latino	female	white	8252/3	Alive	M0	N0	Stage IIA	Bronchiolo-alveolar carcinoma, non-mucinous	Pharmaceutical Therapy, NOS	0	701.0
+458	TCGA-86-8358	44		653.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	653.0
+459	TCGA-86-8359	52	444	26.0	not hispanic or latino	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	1	444.0
+460	TCGA-86-8585	57		353.0	not hispanic or latino	male	white	8230/3	Alive	M0	N0	Stage IB	Solid carcinoma, NOS	None	0	353.0
+461	TCGA-86-8668	61		423.0	not hispanic or latino	female	white	8253/3	Alive	M0	N0	Stage IA	Bronchio-alveolar carcinoma, mucinous	None	0	423.0
+462	TCGA-86-8669	64		938.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	938.0
+463	TCGA-86-8671	72		839.0	not hispanic or latino	female	white	8260/3	Alive	M0	N1	Stage IIB	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	839.0
+464	TCGA-86-8672	59	19	15.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IIB	Adenocarcinoma, NOS	None	1	19.0
+465	TCGA-86-8673	61		862.0	not hispanic or latino	male	white	8252/3	Alive	M0	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	862.0
+466	TCGA-86-8674	50		806.0	not hispanic or latino	male	white	8260/3	Alive	M0	N1	Stage IIA	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	806.0
+467	TCGA-86-A456	78		896.0	not hispanic or latino	female	asian	8260/3	Alive	M0	N0	Stage IA	Papillary adenocarcinoma, NOS	None	0	896.0
+468	TCGA-86-A4D0	48	116	30.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	116.0
+469	TCGA-86-A4JF	56	737	536.0	not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	737.0
+470	TCGA-86-A4P7	63		415.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	415.0
+471	TCGA-86-A4P8	59		805.0	not hispanic or latino	female	white	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	805.0
+472	TCGA-91-6828	70		323.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	323.0
+473	TCGA-91-6829	78	1258		not hispanic or latino	male	white	8252/3	Dead	MX	N0	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	1	1258.0
+474	TCGA-91-6830	65		60.0	not hispanic or latino	female	white	8140/3	Alive	MX	N1	Stage IIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	60.0
+475	TCGA-91-6831	66		310.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	310.0
+476	TCGA-91-6835	81		79.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	79.0
+477	TCGA-91-6836	52		417.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	417.0
+478	TCGA-91-6840	59		372.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	372.0
+479	TCGA-91-6847	62		842.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	842.0
+480	TCGA-91-6848	59		224.0	not hispanic or latino	male	white	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	224.0
+481	TCGA-91-6849	75		35.0	not hispanic or latino	female	black or african american	8140/3	Alive	MX	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	35.0
+482	TCGA-91-7771	62		492.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	492.0
+483	TCGA-91-8496	63		505.0	not hispanic or latino	female	white	8252/3	Alive	MX	NX	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	505.0
+484	TCGA-91-8497	75	434	174.0	not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	434.0
+485	TCGA-91-8499	76		36.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	36.0
+486	TCGA-91-A4BC	59		44.0	not hispanic or latino	male	white	8140/3	Alive	MX	N0	Stage IIA	Adenocarcinoma, NOS	None	0	44.0
+487	TCGA-91-A4BD	78		603.0	not hispanic or latino	male	white	8140/3	Alive	MX	N1	Stage IIA	Adenocarcinoma, NOS	None	0	603.0
+488	TCGA-93-7347	76		683.0	not hispanic or latino	female	white	8255/3	Alive	MX	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	683.0
+489	TCGA-93-7348	75		531.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	531.0
+490	TCGA-93-8067	77		186.0	not hispanic or latino	male	asian	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	None	0	186.0
+491	TCGA-93-A4JN	71		718.0	not hispanic or latino	male	white	8550/3	Alive	M1a	N0	Stage IV	Acinar cell carcinoma	Pharmaceutical Therapy, NOS	0	718.0
+492	TCGA-93-A4JO	70	33		not hispanic or latino	male	white	8255/3	Dead	MX	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	1	33.0
+493	TCGA-93-A4JP	64		578.0	not hispanic or latino	male	asian	8260/3	Alive	M1b	NX	Stage IV	Papillary adenocarcinoma, NOS	Radiation Therapy, NOS	0	578.0
+494	TCGA-93-A4JQ	49		526.0	not hispanic or latino	male	white	8550/3	Alive	MX	N0	Stage IA	Acinar cell carcinoma	None	0	526.0
+495	TCGA-95-7039	54		1272.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IIB	Adenocarcinoma, NOS	None	0	1272.0
+496	TCGA-95-7043	63	503	37.0	not hispanic or latino	female	white	8255/3	Dead	MX	N0	Stage IA	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	1	503.0
+497	TCGA-95-7562	71	87		not hispanic or latino	male	black or african american	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	87.0
+498	TCGA-95-7567	61		568.0	not hispanic or latino	male	white	8255/3	Alive	M0	N1	Stage IIB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	568.0
+499	TCGA-95-7944	71		377.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	377.0
+500	TCGA-95-7947	67		477.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	477.0
+501	TCGA-95-7948	42		476.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	476.0
+502	TCGA-95-8039	72		830.0	not hispanic or latino	male	white	8550/3	Alive	MX	N0	Stage IA	Acinar cell carcinoma	Radiation Therapy, NOS	0	830.0
+503	TCGA-95-8494	67		84.0	not hispanic or latino	male	white	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	None	0	84.0
+504	TCGA-95-A4VK	74		651.0	not hispanic or latino	female	white	8255/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	651.0
+505	TCGA-95-A4VN	62		553.0	not hispanic or latino	female	white	8230/3	Alive	M0	N1	Stage IIA	Solid carcinoma, NOS	None	0	553.0
+506	TCGA-95-A4VP	66		605.0	not reported	female	white	8550/3	Alive	M0	N2	Stage IIIA	Acinar cell carcinoma	Radiation Therapy, NOS	0	605.0
+507	TCGA-97-7546	76		1285.0	not hispanic or latino	female	white	8550/3	Alive	MX	N0	Stage IA	Acinar cell carcinoma	Radiation Therapy, NOS	0	1285.0
+508	TCGA-97-7547	67		1965.0	not hispanic or latino	female	white	8260/3	Alive	MX	N0	Stage IB	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1965.0
+509	TCGA-97-7552	70		1932.0	not hispanic or latino	male	white	8253/3	Alive	MX	N0	Stage IB	Bronchio-alveolar carcinoma, mucinous	None	0	1932.0
+510	TCGA-97-7553	58		1870.0	not hispanic or latino	female	white	8252/3	Alive	MX	N0	Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	1870.0
+511	TCGA-97-7554	83		775.0	not hispanic or latino	female	white	8260/3	Alive	M0	N2	Stage IIIA	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	775.0
+512	TCGA-97-7937	65		564.0	not hispanic or latino	male	white	8265/3	Alive	MX	N0	Stage IB	Micropapillary carcinoma, NOS	None	0	564.0
+513	TCGA-97-7938	76	18		not hispanic or latino	female	white	8252/3	Dead	MX	N0	Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	None	1	18.0
+514	TCGA-97-7941	72		484.0	not hispanic or latino	female	white	8550/3	Alive	MX	N0	Stage IA	Acinar cell carcinoma	None	0	484.0
+515	TCGA-97-8171	81		568.0	not hispanic or latino	male	asian	8260/3	Alive	M1a	N2	Stage IV	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	568.0
+516	TCGA-97-8172	75		545.0	not hispanic or latino	female	white	8550/3	Alive	M0	N0	Stage IB	Acinar cell carcinoma	None	0	545.0
+517	TCGA-97-8174	67	164		not hispanic or latino	male	white	8260/3	Dead	M0	N0	Stage IIA	Papillary adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	164.0
+518	TCGA-97-8175	55		551.0	not hispanic or latino	female	white	8230/3	Alive	M0	N0	Stage IB	Solid carcinoma, NOS	Radiation Therapy, NOS	0	551.0
+519	TCGA-97-8176	63	468	252.0	not hispanic or latino	male	white	8550/3	Dead	M0	N1	Stage IIIA	Acinar cell carcinoma	Radiation Therapy, NOS	1	468.0
+520	TCGA-97-8177	59		499.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	Pharmaceutical Therapy, NOS	0	499.0
+521	TCGA-97-8179	72		435.0	not hispanic or latino	male	white	8550/3	Alive	M0	N0	Stage IA	Acinar cell carcinoma	None	0	435.0
+522	TCGA-97-8547	78		657.0	not reported	female	not reported	8550/3	Alive	MX	N2	Stage IIIA	Acinar cell carcinoma	Pharmaceutical Therapy, NOS	0	657.0
+523	TCGA-97-8552	55		626.0	not hispanic or latino	female	white	8252/3	Alive	MX	N0	Stage I	Bronchiolo-alveolar carcinoma, non-mucinous	None	0	626.0
+524	TCGA-97-A4LX	81		614.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	614.0
+525	TCGA-97-A4M0	60		652.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	652.0
+526	TCGA-97-A4M1	52		601.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	601.0
+527	TCGA-97-A4M2	66		624.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	624.0
+528	TCGA-97-A4M3	69		540.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	540.0
+529	TCGA-97-A4M5	83		634.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	634.0
+530	TCGA-97-A4M6	45		568.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	568.0
+531	TCGA-97-A4M7	74		629.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	629.0
+532	TCGA-99-7458	74		747.0	not hispanic or latino	female	white	8252/3	Alive	M0	N0	Stage IIIA	Bronchiolo-alveolar carcinoma, non-mucinous	Pharmaceutical Therapy, NOS	0	747.0
+533	TCGA-99-8025	72		1060.0	not hispanic or latino	female	black or african american	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	1060.0
+534	TCGA-99-8028	50		1118.0	not hispanic or latino	female	black or african american	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	1118.0
+535	TCGA-99-8032	61		44.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	44.0
+536	TCGA-99-8033	74	656	170.0	not hispanic or latino	female	white	8140/3	Dead	M1	NX	Stage IV	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	656.0
+537	TCGA-99-AA5R	70		658.0	not hispanic or latino	female	black or african american	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	658.0
+538	TCGA-J2-8192	65		739.0	not hispanic or latino	female	white	8140/3	Alive	MX	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	739.0
+539	TCGA-J2-8194	69		724.0	not hispanic or latino	female	white	8255/3	Alive	MX	N0	Stage IIB	Adenocarcinoma with mixed subtypes	Radiation Therapy, NOS	0	724.0
+540	TCGA-J2-A4AD	61	550	287.0	not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	550.0
+541	TCGA-J2-A4AE	77		1079.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	1079.0
+542	TCGA-J2-A4AG	66		988.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	988.0
+543	TCGA-L4-A4E5	48		578.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage I	Adenocarcinoma, NOS	None	0	578.0
+544	TCGA-L4-A4E6	67		435.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	435.0
+545	TCGA-L9-A443	63	193	116.0	not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	193.0
+546	TCGA-L9-A444	60		307.0	not hispanic or latino	female	white	8140/3	Alive	MX	N0	Stage IA	Adenocarcinoma, NOS	None	0	307.0
+547	TCGA-L9-A50W	75	442	266.0	not hispanic or latino	male	black or african american	8255/3	Dead	MX	N1	Stage IIA	Adenocarcinoma with mixed subtypes	None	1	442.0
+548	TCGA-L9-A5IP	40	58		not hispanic or latino	female	black or african american	8140/3	Dead	M1b	N2	Stage IV	Adenocarcinoma, NOS	None	1	58.0
+549	TCGA-L9-A743	56		664.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	664.0
+550	TCGA-L9-A7SV	69		565.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	565.0
+551	TCGA-L9-A8F4	64		476.0	not hispanic or latino	female	black or african american	8140/3	Alive	MX	N0	Stage IB	Adenocarcinoma, NOS	Radiation Therapy, NOS	0	476.0
+552	TCGA-MN-A4N1	60		827.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N1	Stage IIA	Adenocarcinoma, NOS	None	0	827.0
+553	TCGA-MN-A4N4	57		1175.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	1175.0
+554	TCGA-MN-A4N5	63		84.0	not hispanic or latino	male	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	84.0
+555	TCGA-MP-A4SV	67	2620		not reported	male	not reported	8140/3	Dead	M0	N0	Stage IB	Adenocarcinoma, NOS	None	1	2620.0
+556	TCGA-MP-A4SW	53	1778		not reported	male	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	1778.0
+557	TCGA-MP-A4SY	61	1501		not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	1501.0
+558	TCGA-MP-A4T2	71	1136		not hispanic or latino	male	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1136.0
+559	TCGA-MP-A4T4	68	2617		not reported	female	white	8140/3	Dead	M0	N1	Stage IIB	Adenocarcinoma, NOS	None	1	2617.0
+560	TCGA-MP-A4T6	76	1790		not hispanic or latino	female	white	8140/3	Dead	MX	N2	Stage IIIA	Adenocarcinoma, NOS	None	1	1790.0
+561	TCGA-MP-A4T7	75	167		not reported	female	not reported	8140/3	Dead	M1	N0	Stage IV	Adenocarcinoma, NOS	None	1	167.0
+562	TCGA-MP-A4T8	68	161		not reported	male	not reported	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	161.0
+563	TCGA-MP-A4T9	54	1265		not hispanic or latino	female	white	8140/3	Dead	MX	N2	Stage IIIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	1265.0
+564	TCGA-MP-A4TA	75	950		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	950.0
+565	TCGA-MP-A4TC	77	74		not hispanic or latino	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	74.0
+566	TCGA-MP-A4TD	71	307		not reported	male	white	8140/3	Dead	M0	N2	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	307.0
+567	TCGA-MP-A4TE	56	896		not hispanic or latino	male	white	8140/3	Dead	MX	N0	Stage IIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	1	896.0
+568	TCGA-MP-A4TF	58	336		not hispanic or latino	female	white	8140/3	Dead	M0	N0	Stage IIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	336.0
+569	TCGA-MP-A4TH	70		741.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IA	Adenocarcinoma, NOS	None	0	741.0
+570	TCGA-MP-A4TI	72	429		not hispanic or latino	male	white	8140/3	Dead	M0	N1	Stage IIA	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	429.0
+571	TCGA-MP-A4TJ	62	339		not reported	female	not reported	8490/3	Dead	M0	N0	Stage IA	Signet ring cell carcinoma	None	1	339.0
+572	TCGA-MP-A4TK	56	582		not reported	female	not reported	8140/3	Dead	MX	N1	Stage IIB	Adenocarcinoma, NOS	Radiation Therapy, NOS	1	582.0
+573	TCGA-MP-A5C7	76		2248.0	not hispanic or latino	female	white	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	2248.0
+574	TCGA-NJ-A4YF	50		2161.0	not hispanic or latino	female	black or african american	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	2161.0
+575	TCGA-NJ-A4YG	65		2261.0	not reported	male	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	2261.0
+576	TCGA-NJ-A4YI	87	4		not reported	female	white	8550/3	Dead	M0	N2	Stage IIIA	Acinar cell carcinoma	None	1	4.0
+577	TCGA-NJ-A4YP	52		50.0	not hispanic or latino	male	white	8255/3	Alive	M0	N0	Stage IB	Adenocarcinoma with mixed subtypes	None	0	50.0
+578	TCGA-NJ-A4YQ	69		1432.0	not hispanic or latino	female	white	8255/3	Alive	M0	N0	Stage IA	Adenocarcinoma with mixed subtypes	None	0	1432.0
+579	TCGA-NJ-A55A	76		15.0	not hispanic or latino	female	white	8550/3	Alive	M0	N0	Stage IB	Acinar cell carcinoma	None	0	15.0
+580	TCGA-NJ-A55O	56		13.0	not hispanic or latino	female	white	8480/3	Alive	M0	N1	Stage IIA	Mucinous adenocarcinoma	None	0	13.0
+581	TCGA-NJ-A55R	67		603.0	not hispanic or latino	male	white	8230/3	Alive	MX	N0	Stage IA	Solid carcinoma, NOS	None	0	603.0
+582	TCGA-NJ-A7XG	49		617.0	not hispanic or latino	male	black or african american	8140/3	Alive	M0	N1	Stage IIIA	Adenocarcinoma, NOS	Pharmaceutical Therapy, NOS	0	617.0
+583	TCGA-O1-A52J	74	1798		not hispanic or latino	female	white	8140/3	Dead	MX	N0	Stage IA	Adenocarcinoma, NOS	None	1	1798.0
+584	TCGA-S2-AA1A	68		513.0	not hispanic or latino	female	black or african american	8253/3	Alive	M0	N0	Stage IA	Bronchio-alveolar carcinoma, mucinous	None	0	513.0
