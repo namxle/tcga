@@ -161,36 +161,36 @@ X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for 
 y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 
 # Standardize the features
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X_features)
+# scaler = StandardScaler()
+# X_scaled = scaler.fit_transform(X_features)
 
 # Apply PCA
-pca = PCA()
-pca.fit(X_features)
-# X_pca = pca.fit_transform(X_scaled)
+pca = PCA(n_components=13059)
+# pca.fit(X_features)
+X_pca = pca.fit_transform(X_features)
 
 # Cumulative explained variance ratio
-cumulative_variance = pca.explained_variance_ratio_.cumsum()
+# cumulative_variance = pca.explained_variance_ratio_.cumsum()
 
 # Find the number of components that explain at least 95% of the variance
-p = 0.5
-n_components = (cumulative_variance >= p).argmax() + 1
-print(f"Number of components to explain {p} of variance: {n_components}")
-p = 0.75
-n_components = (cumulative_variance >= p).argmax() + 1
-print(f"Number of components to explain {p} of variance: {n_components}")
-p = 0.99
-n_components = (cumulative_variance >= p).argmax() + 1
-print(f"Number of components to explain {p} of variance: {n_components}")
-p = 0.9999
-n_components = (cumulative_variance >= p).argmax() + 1
-print(f"Number of components to explain {p} of variance: {n_components}")
-p = 0.99999
-n_components = (cumulative_variance >= p).argmax() + 1
-print(f"Number of components to explain {p} of variance: {n_components}")
+# p = 0.5
+# n_components = (cumulative_variance >= p).argmax() + 1
+# print(f"Number of components to explain {p} of variance: {n_components}")
+# p = 0.75
+# n_components = (cumulative_variance >= p).argmax() + 1
+# print(f"Number of components to explain {p} of variance: {n_components}")
+# p = 0.99
+# n_components = (cumulative_variance >= p).argmax() + 1
+# print(f"Number of components to explain {p} of variance: {n_components}")
+# p = 0.9999
+# n_components = (cumulative_variance >= p).argmax() + 1
+# print(f"Number of components to explain {p} of variance: {n_components}")
+# p = 0.99999
+# n_components = (cumulative_variance >= p).argmax() + 1
+# print(f"Number of components to explain {p} of variance: {n_components}")
 
 
-exit(0)
+# exit(0)
 # Create a new dataframe for the principal components
 df_pca = pd.DataFrame(X_pca)
 
