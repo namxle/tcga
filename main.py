@@ -173,8 +173,9 @@ pca.fit(X_features)
 cumulative_variance = pca.explained_variance_ratio_.cumsum()
 
 # Find the number of components that explain at least 95% of the variance
-n_components_95 = (cumulative_variance >= 0.95).argmax() + 1
-print(f"Number of components to explain 95% of variance: {n_components_95}")
+p = 0.5
+n_components = (cumulative_variance >= p).argmax() + 1
+print(f"Number of components to explain {p} of variance: {n_components}")
 
 
 exit(0)
