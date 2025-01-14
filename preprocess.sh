@@ -1,5 +1,9 @@
 #!/bin/bash
 
+docker run -itv .:/workspace namxle/py-annotate:22.04 bash
+
+pip install scikit-learn category_encoders lifelines
+
 # Server
 cd /data/GL/master/TCGA/tcga/
 
