@@ -16,6 +16,8 @@ from functools import reduce
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.model_selection import train_test_split
 from lifelines.utils import concordance_index
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 from lifelines import CoxPHFitter
 import pandas as pd
@@ -142,7 +144,7 @@ if not is_loaded:
     logger.info(merged_df.head())
 
     # Initialize VarianceThreshold with a threshold (e.g., 0.1)
-    selector = VarianceThreshold(threshold=0.1)
+    selector = VarianceThreshold(threshold=0.2)
 
     logger.info(f"merged_df.shape: {merged_df.shape}")
 
@@ -189,6 +191,22 @@ X_pca = pca.fit_transform(X_features)
 # n_components = (cumulative_variance >= p).argmax() + 1
 # print(f"Number of components to explain {p} of variance: {n_components}")
 
+# Separate features and target
+X = merged_df.drop(columns='vital_status')
+y = merged_df['vital_status']
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+rf = RandomForestClassifier(n_estimators=100, random_state=42)
+rf.fit(X_train, y_train)
+
+# Predict on the test set
+y_pred = rf.predict(X_test)
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy:.2f}")
 
 # exit(0)
 # Create a new dataframe for the principal components
