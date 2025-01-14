@@ -174,7 +174,7 @@ else:
 # Apply PCA
 pca = PCA()
 # pca.fit(X_features)
-X_pca = pca.fit_transform(X_features)
+# X_pca = pca.fit_transform(X_features)
 
 # Cumulative explained variance ratio
 # cumulative_variance = pca.explained_variance_ratio_.cumsum()
