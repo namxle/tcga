@@ -19,5 +19,9 @@ python3 scripts/preprocess_dna_methylation.py --data /mnt/d/Documents/Data/TCGA/
 python3 scripts/preprocess_dna_methylation.py --data /data/GL/master/TCGA/data/DNA_Methylation
 
 # Preprocess Gene Expression data
+# Local
+python3 scripts/preprocess_gene_expression.py --data /mnt/d/Documents/Data/TCGA/gene_expression
+# Server
+python3 scripts/preprocess_gene_expression.py --data /data/GL/master/TCGA/data/gene_expression
 
 # Preprocess miRNA data

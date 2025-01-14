@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import category_encoders as ce
 import logging
+import argparse
 import os
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_selection import VarianceThreshold
@@ -12,10 +13,15 @@ logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
+# Input
+parser = argparse.ArgumentParser(description="Preprocess DNA Methylation")
+parser.add_argument('--data', type=str, required=True, help='Data dir')
+args = parser.parse_args()
+
 # Directories
 processed_dir = "data"
 sample_sheets_dir = "sample_sheets"
-data_dir = "/mnt/d/Documents/Data/TCGA/gene_expression"
+data_dir = args.data
 
 # Load sample sheet
 df_sample_sheet = pd.read_csv(f"{sample_sheets_dir}/gdc_gene_expression_quantification_sample_sheet.tsv", sep="\t")
