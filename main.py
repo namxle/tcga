@@ -14,6 +14,8 @@ from sklearn.impute import IterativeImputer
 from sklearn.preprocessing import StandardScaler
 from functools import reduce
 from sklearn.preprocessing import OrdinalEncoder
+from sklearn.model_selection import train_test_split
+from lifelines.utils import concordance_index
 
 from lifelines import CoxPHFitter
 import pandas as pd
@@ -162,38 +164,38 @@ y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X_features)
 
-
-
 # Apply PCA
 pca = PCA()
-pca.fit(X_scaled)
-# X_pca = pca.fit_transform(X_scaled)
+# pca.fit(X_scaled)
+X_pca = pca.fit_transform(X_scaled)
 
 # Cumulative explained variance ratio
-cumulative_variance = pca.explained_variance_ratio_.cumsum()
+# cumulative_variance = pca.explained_variance_ratio_.cumsum()
 
 # Find the number of components that explain at least 95% of the variance
-n_components_95 = (cumulative_variance >= 0.95).argmax() + 1
-print(f"Number of components to explain 95% of variance: {n_components_95}")
+# n_components_95 = (cumulative_variance >= 0.95).argmax() + 1
+# print(f"Number of components to explain 95% of variance: {n_components_95}")
 
 # Create a new dataframe for the principal components
-# df_pca = pd.DataFrame(X_pca)
-
-exit(0)
+df_pca = pd.DataFrame(X_pca)
 
 # Recombine the PCA result with the original survival columns
 df_final = pd.concat([df_pca, y_survival], axis=1)
 
 logger.info(f"df_final.shape {df_final.shape}")
 
+# Random split (80% training, 20% testing)
+train_data, test_data = train_test_split(df_final, test_size=0.2, random_state=42)
+
+
 # Fit Cox model
 cph = CoxPHFitter(penalizer=0.1)
-cph.fit(df_final, duration_col='days_to_event', event_col='event')
+cph.fit(train_data, duration_col='days_to_event', event_col='event')
 cph.print_summary()
 
-# Calculate risk scores
-risk_scores = cph.predict_partial_hazard(df_final)
-print(risk_scores)
+# Predict the risk scores for the test set
+test_risk_scores = cph.predict_partial_hazard(test_data)
 
-c_index = cph.concordance_index_
-print(f"C-index: {c_index}")
+# Calculate Concordance Index (C-index) for the test set
+c_index = concordance_index(test_data['time'], -test_risk_scores, test_data['event'])
+print(f"\nConcordance Index on test set: {c_index:.4f}")
