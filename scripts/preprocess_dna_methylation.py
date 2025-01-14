@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import category_encoders as ce
+import argparse
 import logging
 import os
 from sklearn.preprocessing import LabelEncoder
@@ -12,20 +13,23 @@ logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
+# Input
+parser = argparse.ArgumentParser(description="Preprocess DNA Methylation")
+parser.add_argument('--data', type=str, required=True, help='Data dir')
+args = parser.parse_args()
+
 # Directories
 processed_dir = "data"
 sample_sheets_dir = "sample_sheets"
-data_dir = "/mnt/d/Documents/Data/TCGA/DNA_Methylation"
+data_dir = args.data
 
 # Load sample sheet
 df_sample_sheet = pd.read_csv(f"{sample_sheets_dir}/gdc_dna_methylation_sample_sheet.tsv", sep="\t")
 
 # Check for duplication cases
 value_counts = df_sample_sheet['Case ID'].value_counts()
+logger.info("Duplicated rows:")
 logger.info(df_sample_sheet[df_sample_sheet['Case ID'].isin(value_counts[value_counts > 1].index)])
-
-# Remove duplication cases
-logger.info(df_sample_sheet.shape)
 
 # Keeping only Primary Tumor
 df_sample_sheet = df_sample_sheet[df_sample_sheet['Sample Type'] == 'Primary Tumor']
@@ -37,21 +41,19 @@ df_sample_sheet = df_sample_sheet.reset_index(drop=True)
 logger.info(df_sample_sheet.shape)
 logger.info(df_sample_sheet.head(5))
 
-
 # Loop through all rows
 case_data = []
 column_names = ["id", "value"]
 
-logger.info(df_sample_sheet.shape)
+logger.info(f"df_sample_sheet.shape:{df_sample_sheet.shape}")
 
 for index, row in df_sample_sheet.iterrows():
     file_path = f"{data_dir}/{row['File ID']}/{row['File Name']}"
     case_id = row["Case ID"]
-    logger.info(f"At: {index}.")
     # Check if file exist
     if os.path.exists(file_path):
         # logger.info(f"Processing case: {row['Case ID']} at {dna_methylation_data_file_path}")
-        df_dna_methylation_data = pd.read_csv(file_path, header=None, names=file_path, sep="\t")
+        df_dna_methylation_data = pd.read_csv(file_path, header=None, names=column_names, sep="\t")
         
         # Include only cg probes
         df_dna_methylation_data = df_dna_methylation_data[df_dna_methylation_data['id'].astype(str).str.startswith('cg')]
@@ -64,17 +66,18 @@ for index, row in df_sample_sheet.iterrows():
         df_case_data = df_dna_methylation_data.set_index('id').T
         df_case_data['case_id'] = case_id
         df_case_data = df_case_data.set_index('case_id')
-   
+
         case_data.append(df_case_data)
     else:
-        pass
-        # logger.error(f"File {file_path} not exists!")
+        logger.error(f"File {file_path} not exists!")
+        
 logger.info("Done")
 
-exit(0)
 
 # Merge all cases
 df = pd.concat(case_data, axis=0)
+logger.info("Done concat")
+
 df.columns.name = None
 df.to_csv(f"{processed_dir}/dna_methylation_raw.tsv", sep="\t")
 
@@ -96,7 +99,7 @@ logger.info(summary)
 # Define a threshold for missing values
 threshold = 0.2  # 20% threshold
 
-# Drop columns with more than 50% missing values
+# Drop columns with more than 20% missing values
 df_processed = df.loc[:, missing_percentage <= (threshold * 100)]
 logger.info(df_processed.shape)
 
@@ -105,5 +108,7 @@ df_processed = df_processed.fillna(df_processed.mean())
 
 # Add prefix for every field
 df_processed = df_processed.add_prefix("DNA_meth_")
+
+df_processed.to_csv(f"{processed_dir}/dna_methylation.tsv", sep="\t")
 
 logger.info(df_processed.head())

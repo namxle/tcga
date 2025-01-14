@@ -98,4 +98,4 @@ logger.info(f"Total samples: {df.shape[0]}")
 logger.info(f"Total clincal features: { df.shape[1]}")
 
 # Export data
-df.to_csv(f"{processed_dir}/clincal.tsv", sep="\t")
+df.to_csv(f"{processed_dir}/clinical.tsv", sep="\t")

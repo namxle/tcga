@@ -6,18 +6,22 @@ import os
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_selection import VarianceThreshold
 import matplotlib.pyplot as plt
+import argparse
 
 # Create a logger
 logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-processed_dir = "data"
+# Input
+parser = argparse.ArgumentParser(description="Preprocess DNA Methylation")
+parser.add_argument('--data', type=str, required=True, help='Data dir')
+args = parser.parse_args()
 
 # Directories
-processed_dir = "data"
-sample_sheets_dir = "sample_sheets"
-data_dir = "/mnt/d/Documents/Data/TCGA/CNV"
+processed_dir = f"data"
+sample_sheets_dir = f"sample_sheets"
+data_dir = args.data
 
 # Load sample sheet
 df_sample_sheet = pd.read_csv(f"{sample_sheets_dir}/gdc_cnv_sample_sheet.tsv", sep="\t")
@@ -82,9 +86,9 @@ logger.info("Summary of missing value percentages:")
 logger.info(summary)
 
 # Define a threshold for missing values
-threshold = 0.5  # 50% threshold
+threshold = 0.2  # 20% threshold
 
-# Drop columns with more than 50% missing values
+# Drop columns with more than 20% missing values
 df_processed = df.loc[:, missing_percentage <= (threshold * 100)]
 logger.info(df_processed.shape)
 
@@ -104,5 +108,4 @@ df_processed.to_csv(f"{processed_dir}/cnv.tsv", sep="\t")
 
 
 
-    
 
