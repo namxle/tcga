@@ -30,7 +30,7 @@ logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-is_loaded = False
+is_loaded = True
 
 processed_dir = f"data"
 
