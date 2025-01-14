@@ -161,21 +161,23 @@ X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for 
 y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 
 # Standardize the features
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X_features)
+# scaler = StandardScaler()
+# X_scaled = scaler.fit_transform(X_features)
 
 # Apply PCA
 pca = PCA()
-# pca.fit(X_scaled)
-X_pca = pca.fit_transform(X_scaled)
+pca.fit(X_features)
+# X_pca = pca.fit_transform(X_scaled)
 
 # Cumulative explained variance ratio
-# cumulative_variance = pca.explained_variance_ratio_.cumsum()
+cumulative_variance = pca.explained_variance_ratio_.cumsum()
 
 # Find the number of components that explain at least 95% of the variance
-# n_components_95 = (cumulative_variance >= 0.95).argmax() + 1
-# print(f"Number of components to explain 95% of variance: {n_components_95}")
+n_components_95 = (cumulative_variance >= 0.95).argmax() + 1
+print(f"Number of components to explain 95% of variance: {n_components_95}")
 
+
+exit(0)
 # Create a new dataframe for the principal components
 df_pca = pd.DataFrame(X_pca)
 
