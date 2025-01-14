@@ -10,12 +10,17 @@ mkdir -p /mnt/d/Documents/Data/TCGA/CNV
 gdc-client download -d /mnt/d/Documents/Data/TCGA/CNV -m manifests/cnv_manifest.txt
 ```
 
+#### Notes
+
+- Should use the column `copy_number`
+- Can do the circle chart for ploting missing values
+
 ### DNA Methylation
 
 #### Download data
 
 ```bash
-mkdir -p /mnt/d/Documents/Data/TCGA/DNA_Methylation¸
+mkdir -p /mnt/d/Documents/Data/TCGA/DNA_Methylation
 
 gdc-client download -d /mnt/d/Documents/Data/TCGA/DNA_Methylation -m manifests/dna_methylation_manifest.txt
 ```
@@ -48,3 +53,7 @@ gdc-client download -d /mnt/d/Documents/Data/TCGA/miRNA -m manifests/miRNA_manif
 
 - Using `reads_per_million_miRNA_mapped`
 - Should only get `cross-mapped` with value is `N` because `miRNAs` marked as `Y` can introduce noise (they might not be uniquely mapped to a single `miRNA`).
+
+
+
+### Notes

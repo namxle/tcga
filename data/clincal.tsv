@@ -1,4 +1,4 @@
-	case_submitter_id	age_at_index	days_to_death	days_to_last_follow_up	ethnicity	gender	race	morphology	vital_status	ajcc_pathologic_m	ajcc_pathologic_n	ajcc_pathologic_stage	primary_diagnosis	treatment_type	event	days_to_event
+	case_id	age_at_index	days_to_death	days_to_last_follow_up	ethnicity	gender	race	morphology	vital_status	ajcc_pathologic_m	ajcc_pathologic_n	ajcc_pathologic_stage	primary_diagnosis	treatment_type	event	days_to_event
 1	TCGA-05-4245	81		730.0	not reported	male	not reported	8140/3	Alive	M0	N2	Stage IIIA	Adenocarcinoma, NOS	None	0	730.0
 2	TCGA-05-4249	67		1523.0	not reported	male	not reported	8140/3	Alive	M0	N0	Stage IB	Adenocarcinoma, NOS	None	0	1523.0
 3	TCGA-05-4250	79	121		not reported	female	not reported	8140/3	Dead	M0	N1	Stage IIIA	Adenocarcinoma, NOS	None	1	121.0
