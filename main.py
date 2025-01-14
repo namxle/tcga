@@ -192,8 +192,8 @@ X_pca = pca.fit_transform(X_features)
 # print(f"Number of components to explain {p} of variance: {n_components}")
 
 # Separate features and target
-X = merged_df.drop(columns='vital_status')
-y = merged_df['vital_status']
+X = merged_df.drop(columns='event')
+y = merged_df['event']
 
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
