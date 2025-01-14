@@ -179,6 +179,9 @@ print(f"Number of components to explain {p} of variance: {n_components}")
 p = 0.75
 n_components = (cumulative_variance >= p).argmax() + 1
 print(f"Number of components to explain {p} of variance: {n_components}")
+p = 0.99
+n_components = (cumulative_variance >= p).argmax() + 1
+print(f"Number of components to explain {p} of variance: {n_components}")
 
 
 exit(0)
