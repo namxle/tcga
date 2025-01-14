@@ -176,7 +176,6 @@ def perform_t_test(df_tumor, df_normal, load=False):
 
     return scpgs, tumor_cpgs_only
 
-
 logger.info('Perform t-test')
 scpgs, tumor_cpgs_only = perform_t_test(df_tumor, df_normal, False)
 

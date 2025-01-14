@@ -197,5 +197,5 @@ cph.print_summary()
 test_risk_scores = cph.predict_partial_hazard(test_data)
 
 # Calculate Concordance Index (C-index) for the test set
-c_index = concordance_index(test_data['time'], -test_risk_scores, test_data['event'])
+c_index = concordance_index(test_data['days_to_event'], -test_risk_scores, test_data['event'])
 print(f"\nConcordance Index on test set: {c_index:.4f}")
