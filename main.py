@@ -128,7 +128,7 @@ if not is_loaded:
     merged_df[cols] = scaler.fit_transform(merged_df[cols])
     
     # Standard scale DNA methylation 
-    cols = merged_df.filter(like='DNA_meth_').columns
+    cols = [col for col in merged_df.columns if col.startswith('cg')]
     merged_df[cols] = scaler.fit_transform(merged_df[cols])
 
     merged_df = merged_df.reset_index(drop=True)
