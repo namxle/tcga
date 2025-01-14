@@ -55,7 +55,7 @@ for index, row in df_sample_sheet.iterrows():
     # Check if file exist
     if os.path.exists(file_path):
         # logger.info(f"Processing case: {row['Case ID']} at {dna_methylation_data_file_path}")
-        df_gene_data = pd.read_csv(file_path, sep="\t")
+        df_gene_data = pd.read_csv(file_path, sep="\t", comment='#')
         
         # Include only protein coding genes
         df_gene_data = df_gene_data[df_gene_data['gene_type'] == 'protein_coding'][["gene_name", "tpm_unstranded"]]
