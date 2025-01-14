@@ -14,7 +14,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Input
-parser = argparse.ArgumentParser(description="Preprocess DNA Methylation")
+parser = argparse.ArgumentParser(description="Preprocess CNV data")
 parser.add_argument('--data', type=str, required=True, help='Data dir')
 args = parser.parse_args()
 
