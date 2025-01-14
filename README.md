@@ -57,3 +57,6 @@ gdc-client download -d /mnt/d/Documents/Data/TCGA/miRNA -m manifests/miRNA_manif
 
 
 ### Notes
+
+- Using chi-square to reduce features
+- Calculate risk scores to determine the features selection result
