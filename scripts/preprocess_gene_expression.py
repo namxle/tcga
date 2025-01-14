@@ -55,7 +55,7 @@ for index, row in df_sample_sheet.iterrows():
         df_gene_data = df_gene_data[df_gene_data['gene_type'] == 'protein_coding'][["gene_name", "tpm_unstranded"]]
 
         # Exclude NaN value
-        df_gene_data = df_gene_data[df_gene_data['gene_name'].notna()]
+        df_gene_data = df_gene_data[df_gene_data['tpm_unstranded'].notna()]
     
         logger.info(f"At: {index}. Shape: {df_gene_data.shape}")
 

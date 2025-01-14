@@ -47,39 +47,41 @@ column_names = ["id", "value"]
 
 logger.info(f"df_sample_sheet.shape:{df_sample_sheet.shape}")
 
-for index, row in df_sample_sheet.iterrows():
-    file_path = f"{data_dir}/{row['File ID']}/{row['File Name']}"
-    case_id = row["Case ID"]
-    # Check if file exist
-    if os.path.exists(file_path):
-        # logger.info(f"Processing case: {row['Case ID']} at {dna_methylation_data_file_path}")
-        df_dna_methylation_data = pd.read_csv(file_path, header=None, names=column_names, sep="\t")
+# for index, row in df_sample_sheet.iterrows():
+#     file_path = f"{data_dir}/{row['File ID']}/{row['File Name']}"
+#     case_id = row["Case ID"]
+#     # Check if file exist
+#     if os.path.exists(file_path):
+#         # logger.info(f"Processing case: {row['Case ID']} at {dna_methylation_data_file_path}")
+#         df_dna_methylation_data = pd.read_csv(file_path, header=None, names=column_names, sep="\t")
         
-        # Include only cg probes
-        df_dna_methylation_data = df_dna_methylation_data[df_dna_methylation_data['id'].astype(str).str.startswith('cg')]
+#         # Include only cg probes
+#         df_dna_methylation_data = df_dna_methylation_data[df_dna_methylation_data['id'].astype(str).str.startswith('cg')]
 
-        # Exclude NaN value
-        df_dna_methylation_data = df_dna_methylation_data[df_dna_methylation_data['value'].notna()]
+#         # Exclude NaN value
+#         df_dna_methylation_data = df_dna_methylation_data[df_dna_methylation_data['value'].notna()]
     
-        logger.info(f"At: {index}. Shape: {df_dna_methylation_data.shape}")
+#         logger.info(f"At: {index}. Shape: {df_dna_methylation_data.shape}")
 
-        df_case_data = df_dna_methylation_data.set_index('id').T
-        df_case_data['case_id'] = case_id
-        df_case_data = df_case_data.set_index('case_id')
+#         df_case_data = df_dna_methylation_data.set_index('id').T
+#         df_case_data['case_id'] = case_id
+#         df_case_data = df_case_data.set_index('case_id')
 
-        case_data.append(df_case_data)
-    else:
-        logger.error(f"File {file_path} not exists!")
+#         case_data.append(df_case_data)
+#     else:
+#         logger.error(f"File {file_path} not exists!")
         
 logger.info("Done")
 
 
 # Merge all cases
-df = pd.concat(case_data, axis=0)
-logger.info("Done concat")
+# df = pd.concat(case_data, axis=0)
+# logger.info("Done concat")
 
-df.columns.name = None
-df.to_csv(f"{processed_dir}/dna_methylation_raw.tsv", sep="\t")
+# df.columns.name = None
+# df.to_csv(f"{processed_dir}/dna_methylation_raw.tsv", sep="\t")
+
+df = pd.read_csv(f"{processed_dir}/dna_methylation_raw.tsv", sep="\t")
 
 logger.info(df.shape)
 
@@ -101,14 +103,18 @@ threshold = 0.2  # 20% threshold
 
 # Drop columns with more than 20% missing values
 df_processed = df.loc[:, missing_percentage <= (threshold * 100)]
-logger.info(df_processed.shape)
+logger.info(f"Drop columns with more than 20% missing values: {df_processed.shape}")
+
+# Drop columns with low variance
+df_processed = df_processed.loc[df_processed.var(axis=1) > 0.01]
+logger.info(f"Drop columns with low variance: {df_processed.shape}")
 
 # Impute missing values with the mean of each probe
-df_processed = df_processed.fillna(df_processed.mean())
+# df_processed = df_processed.fillna(df_processed.mean())
 
 # Add prefix for every field
-df_processed = df_processed.add_prefix("DNA_meth_")
+# df_processed = df_processed.add_prefix("DNA_meth_")
 
-df_processed.to_csv(f"{processed_dir}/dna_methylation.tsv", sep="\t")
+# df_processed.to_csv(f"{processed_dir}/dna_methylation.tsv", sep="\t")
 
 logger.info(df_processed.head())
