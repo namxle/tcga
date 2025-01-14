@@ -26,7 +26,7 @@ logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-is_loaded = False
+is_loaded = True
 
 processed_dir = f"data"
 
@@ -158,12 +158,28 @@ else:
 X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for PCA
 y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 
+# Standardize the features
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X_features)
+
+
+
 # Apply PCA
 pca = PCA()
-X_pca = pca.fit_transform(X_features)
+pca.fit(X_scaled)
+# X_pca = pca.fit_transform(X_scaled)
+
+# Cumulative explained variance ratio
+cumulative_variance = pca.explained_variance_ratio_.cumsum()
+
+# Find the number of components that explain at least 95% of the variance
+n_components_95 = (cumulative_variance >= 0.95).argmax() + 1
+print(f"Number of components to explain 95% of variance: {n_components_95}")
 
 # Create a new dataframe for the principal components
-df_pca = pd.DataFrame(X_pca)
+# df_pca = pd.DataFrame(X_pca)
+
+exit(0)
 
 # Recombine the PCA result with the original survival columns
 df_final = pd.concat([df_pca, y_survival], axis=1)
