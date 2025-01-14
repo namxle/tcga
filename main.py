@@ -30,7 +30,7 @@ logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-is_loaded = True
+is_loaded = False
 
 processed_dir = f"data"
 
@@ -143,7 +143,7 @@ if not is_loaded:
     logger.info(merged_df.shape)
     logger.info(merged_df.head())
 
-    # Initialize VarianceThreshold with a threshold (e.g., 0.1)
+    # Initialize VarianceThreshold with a threshold 0.1
     selector = VarianceThreshold(threshold=0.2)
 
     logger.info(f"merged_df.shape: {merged_df.shape}")
@@ -153,9 +153,9 @@ if not is_loaded:
 
     logger.info(f"merged_df_high_variance.shape: {merged_df.shape}")
 
-    merged_df.to_csv("merged.tsv", sep="\t")
+    merged_df.to_csv("merged_v2.tsv", sep="\t")
 else:
-    merged_df = pd.read_csv("merged.tsv", sep="\t")
+    merged_df = pd.read_csv("merged_v2.tsv", sep="\t")
 
 
 # Separate feature columns and survival columns
@@ -207,6 +207,8 @@ y_pred = rf.predict(X_test)
 # Evaluate the model
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")
+
+exit(0)
 
 # exit(0)
 # Create a new dataframe for the principal components
