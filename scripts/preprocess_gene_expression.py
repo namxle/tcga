@@ -65,7 +65,7 @@ for index, row in df_sample_sheet.iterrows():
     
         logger.info(f"At: {index}. Shape: {df_gene_data.shape}")
 
-        df_case_data = df_gene_data.set_index('id').T
+        df_case_data = df_gene_data.set_index('gene_name').T
         df_case_data['case_id'] = case_id
         df_case_data = df_case_data.set_index('case_id')
         
