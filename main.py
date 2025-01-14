@@ -90,7 +90,7 @@ if not is_loaded:
 
 
     # CNV data
-    # df_cnv_data = pd.read_csv(f"{processed_dir}/cnv.tsv", sep="\t")
+    df_cnv_data = pd.read_csv(f"{processed_dir}/cnv.tsv", sep="\t")
     # df_cnv_merged = pd.merge(df_clinical_data, df_cnv_data, on='case_id', how='left')
 
     # DNA methylation data
@@ -108,7 +108,7 @@ if not is_loaded:
 
     logger.info("Merging data")
 
-    dfs = [ df_gene_expression_data, df_miRNA_data, df_dna_methylation_data]
+    dfs = [df_cnv_data, df_gene_expression_data, df_miRNA_data, df_dna_methylation_data]
     omics_merged_df = reduce(lambda left, right: pd.merge(left, right, on='case_id', how='outer'), dfs)
     merged_df = pd.merge(df_clinical_data, omics_merged_df, on='case_id', how='left')
     merged_df = merged_df.fillna(0)
@@ -144,7 +144,7 @@ if not is_loaded:
     logger.info(merged_df.head())
 
     # Initialize VarianceThreshold with a threshold 0.1
-    selector = VarianceThreshold(threshold=0.3)
+    selector = VarianceThreshold(threshold=0.05)
 
     logger.info(f"merged_df.shape: {merged_df.shape}")
 
