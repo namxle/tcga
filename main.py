@@ -165,7 +165,7 @@ y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 # X_scaled = scaler.fit_transform(X_features)
 
 # Apply PCA
-pca = PCA(n_components=13059)
+pca = PCA()
 # pca.fit(X_features)
 X_pca = pca.fit_transform(X_features)
 
@@ -200,7 +200,7 @@ df_final = pd.concat([df_pca, y_survival], axis=1)
 logger.info(f"df_final.shape {df_final.shape}")
 
 # Random split (80% training, 20% testing)
-train_data, test_data = train_test_split(df_final, test_size=0.2, random_state=42)
+train_data, test_data = train_test_split(merged_df, test_size=0.2, random_state=42)
 
 
 # Fit Cox model
