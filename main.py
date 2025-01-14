@@ -117,8 +117,8 @@ if not is_loaded:
     # cols = [col for col in merged_df.columns if not col.startswith('CNV')]
     # merged_df[cols] = merged_df[cols].fillna(0)
 
-    cols = [col for col in merged_df.columns if col.startswith('CNV')]
-    merged_df[cols] = merged_df[cols].fillna(2)
+    # cols = [col for col in merged_df.columns if col.startswith('CNV')]
+    # merged_df[cols] = merged_df[cols].fillna(2)
 
     # Standard scale 
     scaler = StandardScaler()
@@ -149,7 +149,12 @@ if not is_loaded:
     logger.info(f"merged_df.shape: {merged_df.shape}")
 
     # Fit and transform the DataFrame (removes low-variance columns)
-    merged_df = pd.DataFrame(selector.fit_transform(merged_df), columns=merged_df.columns[selector.get_support()])
+    X = merged_df.drop(columns=['event','days_to_event'])
+    y = merged_df[['event','days_to_event']]
+
+    merged_df = pd.DataFrame(selector.fit_transform(X), columns=X.columns[selector.get_support()])
+
+    merged_df = pd.concat([X, y], axis=1)
 
     logger.info(f"merged_df_high_variance.shape: {merged_df.shape}")
 
@@ -159,8 +164,8 @@ else:
 
 
 # Separate feature columns and survival columns
-X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for PCA
-y_survival = merged_df[['days_to_event', 'event']]               # Survival data
+# X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for PCA
+# y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 
 # Standardize the features
 # scaler = StandardScaler()
