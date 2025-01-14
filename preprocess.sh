@@ -25,3 +25,7 @@ python3 scripts/preprocess_gene_expression.py --data /mnt/d/Documents/Data/TCGA/
 python3 scripts/preprocess_gene_expression.py --data /data/GL/master/TCGA/data/gene_expression
 
 # Preprocess miRNA data
+# Local
+python3 scripts/preprocess_miRNA.py --data /mnt/d/Documents/Data/TCGA/miRNA
+# Server
+python3 scripts/preprocess_miRNA.py --data /data/GL/master/TCGA/data/miRNA

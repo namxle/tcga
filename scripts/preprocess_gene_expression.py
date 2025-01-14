@@ -7,6 +7,11 @@ import os
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_selection import VarianceThreshold
 import matplotlib.pyplot as plt
+from sklearn.impute import KNNImputer
+from sklearn.impute import KNNImputer
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
+from sklearn.preprocessing import StandardScaler
 
 # Create a logger
 logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s")
@@ -82,31 +87,11 @@ df.to_csv(f"{processed_dir}/gene_expression_raw.tsv", sep="\t")
 
 logger.info(df.shape)
 
-# Calculate the percentage of missing values per column
-missing_percentage = df.isnull().mean() * 100
-
-# Summarize the number of columns in different ranges of missing values
-summary = {
-    '0-10%': (missing_percentage <= 10).sum(),
-    '10-30%': ((missing_percentage > 10) & (missing_percentage <= 30)).sum(),
-    '30-50%': ((missing_percentage > 30) & (missing_percentage <= 50)).sum(),
-    '50-100%': (missing_percentage > 50).sum()
-}
-logger.info("Summary of missing value percentages:")
-logger.info(summary)
-
-# Define a threshold for missing values
-threshold = 0.2  # 20% threshold
-
-# Drop columns with more than 50% missing values
-df_processed = df.loc[:, missing_percentage <= (threshold * 100)]
-logger.info(df_processed.shape)
-
-# Impute missing values with the mean of each probe
-df_processed = df_processed.fillna(df_processed.mean())
-
 # Add prefix for every field
-df_processed = df_processed.add_prefix("Gene_exp_")
+df_processed = df.add_prefix("Gene_exp_")
+
+# scaler = StandardScaler()
+# df_processed = pd.DataFrame(scaler.fit_transform(df_processed), columns=df_processed.columns, index=df_processed.index)
 
 df_processed.to_csv(f"{processed_dir}/gene_expression.tsv", sep="\t")
 
