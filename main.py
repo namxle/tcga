@@ -164,17 +164,17 @@ else:
 
 
 # Separate feature columns and survival columns
-# X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for PCA
-# y_survival = merged_df[['days_to_event', 'event']]               # Survival data
+X_features = merged_df.drop(columns=['days_to_event', 'event'])  # Features for PCA
+y_survival = merged_df[['days_to_event', 'event']]               # Survival data
 
 # Standardize the features
-# scaler = StandardScaler()
-# X_scaled = scaler.fit_transform(X_features)
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X_features)
 
 # Apply PCA
 pca = PCA()
 # pca.fit(X_features)
-# X_pca = pca.fit_transform(X_features)
+X_pca = pca.fit_transform(X_features)
 
 # Cumulative explained variance ratio
 # cumulative_variance = pca.explained_variance_ratio_.cumsum()
@@ -201,7 +201,7 @@ X = merged_df.drop(columns='event')
 y = merged_df['event']
 
 # Split data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X_pca, y, test_size=0.2, random_state=42)
 
 rf = RandomForestClassifier(n_estimators=100, random_state=42)
 rf.fit(X_train, y_train)
@@ -213,7 +213,6 @@ y_pred = rf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")
 
-exit(0)
 
 # exit(0)
 # Create a new dataframe for the principal components
@@ -225,7 +224,7 @@ df_final = pd.concat([df_pca, y_survival], axis=1)
 logger.info(f"df_final.shape {df_final.shape}")
 
 # Random split (80% training, 20% testing)
-train_data, test_data = train_test_split(merged_df, test_size=0.2, random_state=42)
+train_data, test_data = train_test_split(df_final, test_size=0.2, random_state=42)
 
 
 # Fit Cox model
@@ -235,6 +234,7 @@ cph.print_summary()
 
 # Predict the risk scores for the test set
 test_risk_scores = cph.predict_partial_hazard(test_data)
+
 
 # Calculate Concordance Index (C-index) for the test set
 c_index = concordance_index(test_data['days_to_event'], -test_risk_scores, test_data['event'])
